@@ -2,14 +2,76 @@
 @use 'reset';
 
 body {
-  font-family: $font-stack--reading;
+  background-color: #000000;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $font-stack--headings;
+h1 {
+  color: #FFC800;
+  font-family: 'Koulen', cursive;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: #FFC800;
+  font-family: 'Koulen', cursive;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  padding-bottom: 20px;
+}
+
+p {
+  color: #FFC800;
+  font-family: 'Koulen', cursive;
+  font-size: 30px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+footer {
+  color: #FFC800;
+}
+
+ul {
+  color: #FFC800;
+  font-family: 'Koulen', cursive;
+  font-size: 40px;
+}
+
+ul {
+  text-align: center;
+}
+
+a {
+  color: #FFC800;
+  font-family: 'Koulen', cursive;
+}
+
+footer {
+  color: #FFC800;
+  font-family: 'Koulen', cursive;
+}
+
+IMG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
